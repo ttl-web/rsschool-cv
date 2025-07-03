@@ -48,3 +48,21 @@ const str = prompt();
 console.log(str.toLowerCase().split('').reverse('').join(''));
 ```
 ---
+### Education:
+- Bachelor, Adyghe State University, Maykop
+  - Faculty of Engineering and Physics.
+- Computer Systems Technician, Maykop State Humanitarian and Technical College, Maykop
+  - Faculty of Computer Systems and Complexes.
+
+### Courses:
+
+- JavaScript on [learnjavascript.ru](https://learn.javascript.ru/)
+-  [HTML Верстка](https://code-basics.com/ru/languages/html), [CSS](https://code-basics.com/ru/languages/css), [JavaScript](https://code-basics.com/ru/languages/javascript)
+- [Introduction to HTML and CSS](https://hyperskill.org/courses/34-introduction-to-html-and-css)
+- [Introduction to Frontend](https://hyperskill.org/courses/125-introduction-to-frontend)
+---
+
+### Languages:
+
+- English - B1/B2<br>
+- Russian \- Native speaker
