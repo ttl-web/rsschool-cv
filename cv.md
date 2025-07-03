@@ -13,3 +13,38 @@
 * **[GitHub](https://github.com/ttl-web)**
 
 ---
+
+### Briefly About Myself:
+
+I am 26 years old, I graduated from university in 2023 with a degree in computer science and computer engineering. My current job does not involve growth as such, so I really need an activity in which I can develop and improve. That is why I am here. My goal is to gain knowledge in front-end development.<br>
+
+I have good interpersonal skills and I work well in a team, and besides learning front-end, I learn English step by step every day, which has become my habit.<br>
+
+I’m interested in Web Development because this occupation provides endless possibilities for professional growth.<br>
+
+I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.<br>
+
+---
+
+### Skills and Proficiency:
+
+- HTML5 (BEM), CSS3 (SCSS/SASS)
+- Gulp
+- Bootstrap
+- JavaScript Basics
+-  C++, Python
+- PostgreSQL
+- Git
+- Figma
+
+---
+
+### Code example:
+
+*The program that queries the user for a string and then outputs that string in reverse order and in lower case.*
+
+```javascript
+const str = prompt();
+console.log(str.toLowerCase().split('').reverse('').join(''));
+```
+---
