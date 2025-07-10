@@ -14,8 +14,30 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+h1 {
+  margin-top: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 50%;
+  margin-top: 50px;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  margin: 0;
+  color: #ff9a11;
+  transition: color 0.2s ease-in-out;
+}
+.subtitle:hover {
+  color: #aa6200;
+}
+
+.list {
+  line-height: 2;
 }
 
 body {
@@ -48,6 +70,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  list-style-type: none;
+  padding-left: 0;
 }
 .menu-list__item {
   transition: all 0.2s ease-in;
@@ -71,4 +95,52 @@ body {
 .main {
   position: relative;
   top: 100px;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile__title {
+  font-size: 34px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+.profile__avatar {
+  width: 50%;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.profile__avatar:hover {
+  box-shadow: 0 0 8px #ff9a11;
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.contacts__item > a {
+  transition: border-bottom 0.2s;
+}
+.contacts__item > a:hover {
+  color: #ff9a11;
+  border-bottom: 2px solid #ff9a11;
+}
+
+.summary__text {
+  line-height: 2;
+  padding: 0 20px;
+  white-space: pre-line;
+  text-align: justify;
 }
