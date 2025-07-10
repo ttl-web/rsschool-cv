@@ -23,10 +23,13 @@ section {
   flex-direction: column;
   align-items: center;
   flex-basis: 50%;
+  flex-grow: 1;
   margin-top: 50px;
+  padding: 0 20px;
 }
 
 .subtitle {
+  text-align: center;
   letter-spacing: 3px;
   margin: 0;
   color: #ff9a11;
@@ -45,6 +48,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 .container {
@@ -113,6 +117,7 @@ body {
   font-size: 34px;
   letter-spacing: 4px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .profile__avatar {
   width: 50%;
@@ -140,17 +145,29 @@ body {
 
 .summary__text {
   line-height: 2;
-  padding: 0 20px;
   white-space: pre-line;
   text-align: justify;
 }
 
+.code {
+  text-align: justify;
+}
 .code__text {
+  background-color: #3b3b3b;
   text-align: left;
   color: #ff9a11;
   font-weight: bold;
+  padding: 10px;
   transition: all 0.2s ease-in-out;
 }
 .code__text:hover {
   color: #fff;
+}
+
+.courses__item > a {
+  transition: border-bottom 0.2s;
+}
+.courses__item > a:hover {
+  color: #ff9a11;
+  border-bottom: 2px solid #ff9a11;
 }
