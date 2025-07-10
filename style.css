@@ -144,3 +144,13 @@ body {
   white-space: pre-line;
   text-align: justify;
 }
+
+.code__text {
+  text-align: left;
+  color: #ff9a11;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.code__text:hover {
+  color: #fff;
+}
