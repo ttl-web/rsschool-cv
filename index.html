@@ -1,49 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-      type="image/png"
-      sizes="32x32"
-      rel="icon"
-      href="icons8-cv-flat-circular-32.png"
-    >
-  </head>
-  <body>
-    <header class="header">
-      <nav class="menu">
-        <ul class="menu-list">
-          <li class="menu-list__item">
-            <a href="#summary" class="menu-list__link">SUMMARY</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#skills" class="menu-list__link">SKILLS</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#contacts" class="menu-list__link">CONTACTS</a>
-          </li>
 
-          <li class="menu-list__item">
-            <a href="#code" class="menu-list__link">CODE</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#education" class="menu-list__link">EDUCATION</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#courses" class="menu-list__link">COURSES</a>
-          </li>
-          <li class="menu-list__item">
-            <a href="#languages" class="menu-list__link">LANGUAGES</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link type="image/png" sizes="32x32" rel="icon" href="favicon.png">
+  <title>CV</title>
+</head>
 
-    <main class="main">
-      <img src="avatar.jpg" alt="">
-    </main>
-  </body>
+<body>
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-list__item">
+          <a href="#summary" class="menu-list__link">SUMMARY</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#skills" class="menu-list__link">SKILLS</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#contacts" class="menu-list__link">CONTACTS</a>
+        </li>
+
+        <li class="menu-list__item">
+          <a href="#code" class="menu-list__link">CODE</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#education" class="menu-list__link">EDUCATION</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#courses" class="menu-list__link">COURSES</a>
+        </li>
+        <li class="menu-list__item">
+          <a href="#languages" class="menu-list__link">LANGUAGES</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <section class="profile">
+          <h1 class="profile__title">Masalov Aleksandr</h1>
+          <img src="avatar.jpg" class="profile__avatar" alt="Author's avatar">
+        </section>
+
+
+        <section class="contacts" id="contacts">
+          <h2 class="subtitle contacts__title">Contact information:</h2>
+          <ul class="list contacts-list">
+            <li class="contacts__item"><a href="mailto:masalov9898@gmail.com">E-mail: masalov9898@gmail.com</a></li>
+            <li class="contacts__item"><a href="http://discordapp.com/users/583362454579576835">Discord</a></li>
+            <li class="contacts__item"><a href="https://t.me/dll_llb">Telegram</a></li>
+            <li class="contacts__item"><a href="https://vk.com/needau">VK</a></li>
+            <li class="contacts__item"><a href="https://github.com/ttl-web">GitHub</a></li>
+          </ul>
+        </section>
+
+
+
+
+        <section class="summary" id="summary">
+          <h2 class="subtitle summary__title">Briefly About Myself:</h2>
+          <p class="summary__text">I am 26 years old, I graduated from university in 2023 with a degree in computer
+            science and computer engineering. My current job does not involve growth as such, so I really need an
+            activity in which I can develop and improve. That is why I am here. My goal is to gain knowledge in
+            front-end development. </p>
+
+            <p class="summary__text">
+              I have good interpersonal skills and I work well in a team, and besides learning front-end, I learn English
+              step by step every day, which has become my habit.
+            </p>
+
+            <p class="summary__text">
+              I’m interested in Web Development because this occupation provides endless possibilities for professional
+              growth.
+            </p>
+
+            <p class="summary__text">
+              I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+              proficient Frontend Developer.
+            </p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="subtitle skills__title">Skills and Proficiency</h2>
+          <ul class="list skills-list">
+            <li class="skills__item">HTML5 (BEM), CSS3 (SCSS/SASS)</li>
+            <li class="skills__item">Gulp</li>
+            <li class="skills__item">Bootsrap</li>
+            <li class="skills__item">JavaScript Basics</li>
+            <li class="skills__item">C++, Python</li>
+            <li class="skills__item">PostgreSQL</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Figma</li>
+          </ul>
+        </section>
+
+        <section class="code" id="code">
+          <h2 class="subtitle code__title">Code example</h2>
+          <p class="code__description">The program that queries the user for a string and then outputs that string in
+            reverse order and in lower case.</p>
+          <code class="code__text">
+                const str = prompt();
+              console.log(str.toLowerCase().split('').reverse('').join(''));
+              </code>
+        </section>
+
+        <section class="education" id="education">
+          <h2 class="subtitle code__title">Education</h2>
+          <ul class="list education-list">
+            <li class="education__item">
+              Bachelor, Adyghe State University, Maykop
+              <ul class="list education-list">
+                <li class="education__item">Faculty of Engineering and Physics.</li>
+              </ul>
+            </li>
+            <li class="education__item">
+              Computer Systems Technician, Maykop State Humanitarian and Technical College, Maykop
+              <ul class="education-list">
+                <li class="education__item">Faculty of Computer Systems and Complexes.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="courses" id="courses">
+          <h2 class="subtitle courses__title">Courses</h2>
+          <ul class="list courses-list">
+            <li class="courses__item"><a href="https://learn.javascript.ru/" class="courses__link">JavaScript on
+                learnjavascript.ru</a></li>
+            <li class="courses__item"><a href="https://code-basics.com/ru/languages/html" class="courses__link">HTML
+                Верстка,</a><a href="https://code-basics.com/ru/languages/css" class="courses__link"> CSS, </a><a
+                href="https://code-basics.com/ru/languages/javascript" class="courses__link">JavaScript</a> </li>
+            <li class="courses__item"><a href="https://hyperskill.org/courses/34-introduction-to-html-and-css"
+                class="courses__link">Introduction to HTML and CSS</a></li>
+            <li class="courses__item"><a href="https://hyperskill.org/courses/125-introduction-to-frontend"
+                class="courses__link">Introduction to Frontend</a></li>
+          </ul>
+        </section>
+
+        <section class="languages" id="languages">
+          <h2 class="subtitle languages__title">Languages</h2>
+          <ul class="list languages-list">
+            <li class="languages__item">English - B1/B2</li>
+            <li class="languages__item">Russian - Native speaker</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="https://github.com/ttl-web">
+          <img src="github-mark-white.svg" width="100" alt="Author's github">
+        </a>
+        <span class="footer__year">2025</span>
+        <a href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" width="150" height="150"
+            alt="RS school"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
